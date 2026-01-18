@@ -1,86 +1,54 @@
-SQL Data Analysis Project: Customer & Sales Insights
-Welcome to my first data analysis project! 🚀 This project was developed as part of my professional training to demonstrate my ability to transform raw data into actionable business insights using SQL.
+# 📊 SQL Data Analysis Project: Customer & Sales Insights
 
-📌 About the Project
-The goal of this project is to perform a comprehensive Exploratory Data Analysis (EDA) and generate business-ready reports for a retail dataset. I worked with a schema consisting of a Fact table (fact_sales) and Dimension tables (dim_customers, dim_products) to analyze key performance indicators (KPIs) and customer behavior.
+## 🚀 Overview
+Welcome to my first major project in Data Analytics! This project was developed as part of my SQL course to demonstrate my ability to extract, transform, and analyze data to solve real-world business problems. 
 
-Key Highlights:
+I performed a full-cycle **Exploratory Data Analysis (EDA)** on a retail dataset, focusing on customer behavior, sales trends, and product performance.
 
-First Milestone: This is my debut project in the field of Data Analytics.
+---
 
-Course Work: Developed during my SQL bootcamp to practice real-world database querying and reporting.
+## 🛠 Tech Stack & Skills
+* **SQL Server (T-SQL):** The primary tool used for querying and analysis.
+* **Advanced Joins:** Connecting Fact and Dimension tables (`fact_sales`, `dim_customers`, `dim_products`).
+* **Window Functions:** Used `ROW_NUMBER`, `RANK`, `LAG`, and `OVER` for rankings and YoY analysis.
+* **CTEs & Views:** Created modular, readable code and automated reports.
+* **Data Segmentation:** Applied complex `CASE` logic for customer and product profiling.
 
-Advanced Logic: Includes customer segmentation, product performance ranking, and time-series analysis.
+---
 
-🛠 Tech Stack
-Database: SQL Server (T-SQL)
+## 📈 Key Analysis Features
 
-Key Techniques: * Advanced Joins and Aggregations.
+### 1. Business KPI Discovery
+* Calculated foundational metrics: **Total Sales, Total Orders, Average Price,** and **Customer Base** size.
+* Determined the operational timespan and customer age demographics.
 
-Window Functions (ROW_NUMBER, RANK, LAG, SUM OVER).
+### 2. Customer Intelligence & Segmentation
+* **Customer Profiling:** Classified customers into **VIP**, **Regular**, and **New** based on their spending history and tenure (lifespan).
+* **Demographics:** Analyzed sales by country and gender to identify the most profitable segments.
+* **Engagement:** Tracked "Recency" to see how many months have passed since a customer's last purchase.
 
-Common Table Expressions (CTEs) for modular code.
+### 3. Sales & Product Performance
+* **Trend Analysis:** Created a monthly sales performance report with **Running Totals**.
+* **Year-over-Year (YoY):** Compared current yearly sales against the previous year (PY) to track growth or decline.
+* **Product Ranking:** Identified the Top 5 revenue generators and the Worst 5 performing products.
+* **Category Insights:** Calculated the percentage contribution of each product category to total revenue.
 
-Database Views for automated reporting.
+---
 
-Here is a professional and engaging README.md in English. I have structured it to highlight your technical skills while clearly stating that this is your first milestone project from your course.
+## 📂 Project Structure
+* **EDA Section:** Initial data exploration to understand the database schema.
+* **Advanced Analytics:** In-depth SQL queries using CTEs for business logic.
+* **Final Reporting:** * `Customer Report`: A comprehensive summary of customer KPIs.
+    * `Product Report (View)`: A reusable SQL View for monitoring product health.
 
-📊 SQL Data Analysis Project: Customer & Sales Insights
-Welcome to my first data analysis project! 🚀 This project was developed as part of my professional training to demonstrate my ability to transform raw data into actionable business insights using SQL.
+---
 
-📌 About the Project
-The goal of this project is to perform a comprehensive Exploratory Data Analysis (EDA) and generate business-ready reports for a retail dataset. I worked with a schema consisting of a Fact table (fact_sales) and Dimension tables (dim_customers, dim_products) to analyze key performance indicators (KPIs) and customer behavior.
+## 💡 Learning Journey
+This project marks my first milestone in becoming a Data Analyst. It taught me how to:
+1. Translate business questions into SQL queries.
+2. Clean and handle data (filtering nulls and managing dates).
+3. Think like an analyst by focusing on metrics that drive decisions.
 
-Key Highlights:
-
-First Milestone: This is my debut project in the field of Data Analytics.
-
-Course Work: Developed during my SQL bootcamp to practice real-world database querying and reporting.
-
-Advanced Logic: Includes customer segmentation, product performance ranking, and time-series analysis.
-
-🛠 Tech Stack
-Database: SQL Server (T-SQL)
-
-Key Techniques: * Advanced Joins and Aggregations.
-
-Window Functions (ROW_NUMBER, RANK, LAG, SUM OVER).
-
-Common Table Expressions (CTEs) for modular code.
-
-Database Views for automated reporting.
-
-📈 Analysis Overview
-1. Exploratory Data Analysis (EDA)
-Identified customer demographics across different countries.
-
-Determined the business timespan (first and last order dates).
-
-Calculated high-level KPIs: Total Sales, Total Quantity, Average Price, and Total Orders.
-
-2. Customer & Sales Intelligence
-Segmentation: Categorized customers into VIP, Regular, and New based on their spending habits and loyalty lifespan.
-
-Demographics: Analyzed sales distribution by gender, age groups, and geographic location.
-
-Monthly Performance: Tracked sales trends and calculated running totals using window functions.
-
-3. Product Performance
-Ranking: Identified the Top 5 best-selling and Worst 5 performing products.
-
-YoY Analysis: Compared current yearly sales against the previous year (PY) and calculated the percentage change.
-
-Category Insights: Analyzed which categories contribute most to the overall revenue.
-
-4. Final Business Reports
-I developed two comprehensive reporting structures:
-
-Customer Report: Consolidates metrics like recency, frequency, and average monthly spend.
-
-Product Report: A specialized View providing insights into product segments (High-Performer vs. Low-Performer) and average order revenue.
-
-📂 File Structure
-04_data_analysis_SQL.sql: Contains the full SQL script, organized from basic exploration to advanced reporting views.
-
-💡 Reflection
-As my first project, this was a fantastic opportunity to move beyond simple queries and understand how data helps businesses make strategic decisions. I learned how to handle null values, use complex logic for segmentation, and optimize code for readability.
+---
+**Feedback & Networking:**
+I'm currently building my portfolio and would love to hear your thoughts on my code. Feel free to connect or leave a suggestion!
